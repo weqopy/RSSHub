@@ -20,9 +20,9 @@ RUN if [ "$USE_CHINA_NPM_REGISTRY" = 1 ]; then \
 RUN npm i -g npm
 
 RUN if [ "$PUPPETEER_SKIP_CHROMIUM_DOWNLOAD" = 0 ]; then \
-  unset PUPPETEER_SKIP_CHROMIUM_DOWNLOAD && yarn ci ;\
+  unset PUPPETEER_SKIP_CHROMIUM_DOWNLOAD && yarn ;\
   else \
-  export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true && yarn ci ;\
+  export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true && yarn ;\
   fi;
 
 COPY . /app
