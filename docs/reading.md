@@ -113,13 +113,13 @@ pageClass: routes
 
 ## 笔趣阁
 
-### biquge5200.com
+### biqu5200.com
 
 <Route author="jjeejj" example="/novel/biquge/52_52542" path="/novel/biquge/:id" :paramsDesc="['小说 id, 可在对应小说页 URL 中找到']" anticrawler="1" radar="1" rssbud="1"></Route>
 
 ::: tip 提示
 
-由于笔趣阁网站有多个，各站点小说对应的小说 id 不同。此 feed 只对应在[`www.biquge5200.com`](https://www.biquge5200.com/)中的小说 id.
+由于笔趣阁网站有多个，各站点小说对应的小说 id 不同。此 feed 只对应在[`www.biqu5200.com`](https://www.biqu5200.com/)中的小说 id.
 
 :::
 
